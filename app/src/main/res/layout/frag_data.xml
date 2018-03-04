@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_data_new"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#00A2ED"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_face_data"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        app:cardCornerRadius="50dp">
+        <ImageView
+            android:id="@+id/face_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content"
+            android:src="@drawable/face_test"
+            />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/name_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorefresh"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/check_out"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff0000"
+        android:text="@string/check_out"
+        android:textSize="30sp"/>
+</LinearLayout>

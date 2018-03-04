@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/night_mode_item"
+        android:title="@string/night_mode"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/setting_item"
+        android:title="@string/setting"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/bells_item"
+        android:title="@string/bells"
+        app:showAsAction="always"
+        android:icon="@drawable/png_bell"/>
+</menu>
