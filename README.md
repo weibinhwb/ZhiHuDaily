@@ -12,7 +12,7 @@
 - 半成品的夜间模式
 - 可以实现文章内容分享
 - 可以查看文章内图片，并下载保存到本地相册
-- 当我打开服务器时，可以实现登录注册功能收藏
+- 当我打开服务器时(服务器为本地电脑)，可以实现登录注册功能收藏
 ## App界面
 ### 独一无二的icon
 ![独一无二的icon](http://upload-images.jianshu.io/upload_images/9623319-92d58f81fd41e4ec.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/720/q/50)
