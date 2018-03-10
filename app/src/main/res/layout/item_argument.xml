@@ -6,7 +6,8 @@
     android:layout_margin="10dp"
     app:cardCornerRadius="5dp"
     app:cardElevation="3dp"
-    app:cardPreventCornerOverlap="true">
+    app:cardPreventCornerOverlap="true"
+    android:background="?attr/colorAccent">
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -26,7 +27,7 @@
                     android:id="@+id/author_name"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:textColor="#000000"
+                    android:textColor="?attr/colorAccent"
                     android:layout_marginLeft="5dp"
                     android:layout_marginStart="5dp"
                     />
@@ -36,7 +37,7 @@
                 android:id="@+id/long_argument"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#2c2c2c"
+                android:textColor="?attr/colorAccent"
                 android:paddingTop="20dp"
                 android:paddingEnd="30dp"
                 android:paddingRight="30dp"

@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:textSize="16sp"
-            android:textColor="#2c2c2c"
+            android:textColor="?attr/colorAccent"
             android:layout_toStartOf="@+id/photo_father"
             android:layout_toLeftOf="@+id/photo_father"
             android:layout_marginTop="10dp"

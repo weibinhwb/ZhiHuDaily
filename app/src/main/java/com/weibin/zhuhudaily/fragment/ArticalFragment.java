@@ -47,8 +47,7 @@ import java.net.URLEncoder;
 public class ArticalFragment extends Fragment implements AddressInterface {
 
     private WebView webview_arti;
-    private TextView popu_arti, comme_arti, title_arti, image_source_arti;
-    private ImageButton collec_arti,back_arti,share_arti;
+    private TextView popu_arti, comme_arti, title_arti, image_source_arti,collec_arti,back_arti,share_arti;
     private ImageView photo_arti;
 
     @Override

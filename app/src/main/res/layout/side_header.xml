@@ -1,5 +1,5 @@
 <LinearLayout android:orientation="vertical"
-    android:background="#00A2ED"
+    android:background="?attr/colorPrimaryDark"
     android:layout_width="match_parent"
     android:layout_height="120dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
